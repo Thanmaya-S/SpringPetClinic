@@ -29,7 +29,7 @@ pipeline{
         stage("deploy"){
             steps{
                 
-                sh "java -jar /home/coder/.jenkins/workspace/PetclinicDeclarativePipeline/target/*.jar"
+                sh "java -jar /home/coder/.jenkins/workspace/PetClinicDeclarativePipeline/target/*.jar"
             }
         }
     }
